@@ -1,0 +1,64 @@
+.nav-default {
+  background-color: #272B33 !important;
+  color: #61D9FA !important;
+  height: 16vmin;
+  border: none;
+  background: transparent;
+
+}
+
+.nav-default .col {
+  background: transparent;
+  height: 99% !important;
+}
+
+.hide-on-med-and-down {
+  background: transparent;
+  height: 99% !important;
+}
+
+.nav-default a {
+  color: #272B33 !important;
+}
+
+.nav-centered {
+  display: flex !important;
+  width: fit-content;
+  margin: auto;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#nav-title {
+  display: inline-block !important;
+  height: fit-content;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.nav-wrapper {
+  position: relative;
+  border-bottom: solid 3px #61D9FA;
+  border-top: solid 3px #61D9FA;
+}
+
+.brand-logo {
+  left: 0px;  
+  width: fit-content;
+  text-align: left;
+}
+
+.Nav-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 15vmin;
+}
+
+@keyframes Nav-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
